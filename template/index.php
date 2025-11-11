@@ -1,122 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
+	@include 'inc/header.php';
 
-<!-- Mirrored from truelysell.dreamstechnologies.com/html/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Nov 2025 09:11:11 GMT -->
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<title>Truelysell - Service Marketplace Template</title>
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-	<!-- Animation CSS -->
-	<link rel="stylesheet" href="assets/css/animate.css">
-
-	<!-- Tabler Icon CSS -->
-	<link rel="stylesheet" href="assets/plugins/tabler-icons/tabler-icons.css">
-
-	<!-- Fontawesome Icon CSS -->
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-
-	<!-- select CSS -->
-	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
-
-	<!-- Owlcarousel CSS -->
-	<link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
-
-	<!-- Mobile CSS-->
-	<link rel="stylesheet" href="assets/plugins/intltelinput/css/intlTelInput.css">
-	<link rel="stylesheet" href="assets/plugins/intltelinput/css/demo.css">
-
-	<!-- Feather CSS -->
-	<link rel="stylesheet" href="assets/css/feather.css">
-
-	<!-- Style CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-
-	<!-- Header -->
-	<header class="header header-new">
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg header-nav">
-				<div class="navbar-header">
-					<a id="mobile_btn" href="javascript:void(0);">
-						<span class="bar-icon">
-							<span></span>
-							<span></span>
-							<span></span>
-						</span>
-					</a>
-					<a href="index.html" class="navbar-brand logo">
-						<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
-					</a>
-					<a href="index.html" class="navbar-brand logo-small">
-						<img src="assets/img/logo-small.svg" class="img-fluid" alt="Logo">
-					</a>
-				</div>
-				<div class="main-menu-wrapper">
-					<div class="menu-header">
-						<a href="index.html" class="menu-logo">
-							<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
-						</a>
-						<a id="menu_close" class="menu-close" href="javascript:void(0);"> <i
-								class="fas fa-times"></i></a>
-					</div>
-					<ul class="main-nav align-items-lg-center">
-						<li class="me-4 active">
-							<a href="#">Home</a>
-						</li>
-						<li class="me-4">
-							<a href="#">Services</a>
-						</li>
-						<li class="me-4">
-							<a href="#">Customers</a>
-						</li>
-						<li class="me-4">
-							<a href="#">Providers</a>
-						</li>
-						<li class="nav-item me-4">
-							<a class="nav-link" href="#">Pages</a>
-							
-						</li>
-						<li class="nav-item me-4">
-							<a class="nav-link" href="#">Become a Provider</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="admin/index.html">Admin</a>
-						</li>
-						<li class="nav-item d-sm-none">
-							<a class="nav-link" href="login.html">Sign In</a>
-						</li>
-						<li class="nav-item d-sm-none">
-							<a class="nav-link" href="register.html">Join Us</a>
-						</li>
-					</ul>
-				</div>
-				<ul class="nav header-navbar-rht">
-					<li class="nav-item pe-1">
-						<a class="nav-link btn btn-light" href="#" data-bs-toggle="modal"
-							data-bs-target="#login-modal"><i class="ti ti-lock me-2"></i>Sign In</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link btn btn-linear-primary" href="#" data-bs-toggle="modal"
-							data-bs-target="#register-modal"><i class="ti ti-user-filled me-2"></i>Join Us</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<!-- /Header -->
+?>
 
 	<!-- Hero Section -->
 	<section class="hero-section" id="home">
@@ -156,23 +42,6 @@
 								<a href="search.html"
 									class="badge badge-dark-transparent fs-14 fw-normal mb-2 me-2">Nail Technicians</a>
 							</div>
-							<div class="d-flex align-items-center flex-wrap banner-info">
-								<div class="d-flex align-items-center me-4 mt-4">
-									<img src="assets/img/icons/success-01.svg" alt="icon">
-									<div class="ms-2">
-										<h6>215,292 +</h6>
-										<p>Verified Providers</p>
-									</div>
-								</div>
-								<div class="d-flex align-items-center me-4 mt-4">
-									<img src="assets/img/icons/success-02.svg" alt="icon">
-									<div class="ms-2">
-										<h6>90,000+</h6>
-										<p>Services Completed</p>
-									</div>
-								</div>
-								
-							</div>
 						</div>
 					</div>
 					<div class="banner-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
@@ -181,17 +50,6 @@
 				</div>
 			</div>
 			<div class="hero-image">
-				<!-- <div class="d-inline-flex bg-white p-2 rounded align-items-center shape-01 floating-x">
-					<span class="avatar avatar-md bg-warning rounded-circle me-2"><i
-							class="ti ti-star-filled"></i></span>
-					<span>4.9 / 5<small class="d-block">(255 reviews)</small></span>
-					<i class="border-edge"></i>
-				</div>
-				<div class="d-inline-flex bg-white p-2 rounded align-items-center shape-02 floating-x">
-					<span class="me-2"><img src="assets/img/icons/tick-banner.svg" alt=""></span>
-					<p class="fs-12 text-dark mb-0">300 Booking Completed</p>
-					<i class="border-edge"></i>
-				</div> -->
 				<img src="assets/img/bg/bg-03.svg" alt="img" class="shape-03">
 				<img src="assets/img/bg/bg-04.svg" alt="img" class="shape-04">
 				<img src="assets/img/bg/bg-05.svg" alt="img" class="shape-05">
@@ -369,27 +227,12 @@
 								<a href="service-details.html">
 									<img src="assets/img/services/service-01.jpg" class="img-fluid rounded" alt="img">
 								</a>
-								<div class="trend-icon position-absolute top-0 start-0 m-2">
-									<span class="bg-success text-white p-2 rounded-circle">
-										<i class="feather-trending-up"></i>
-									</span>
-								</div>
-								<div class="fav-item position-absolute top-0 end-0 m-2">
-									<a href="javascript:void(0);" class="fav-icon text-danger">
-										<i class="ti ti-heart"></i>
-									</a>
-								</div>
 							</div>
 							<div class="service-content mt-3">
 								<h6 class="text-truncate mb-1">
 									<a href="service-details.html">Professional Delivery Services</a>
 								</h6>
-								<div class="d-flex align-items-center justify-content-between">
-									<p class="fw-medium fs-14 mb-0">Service starts at $40</p>
-									<span class="d-inline-flex align-items-center fs-14">
-										<i class="ti ti-star-filled text-warning me-1"></i>4.5
-									</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -401,27 +244,13 @@
 								<a href="service-details.html">
 									<img src="assets/img/services/service-04.jpg" class="img-fluid rounded" alt="img">
 								</a>
-								<div class="trend-icon position-absolute top-0 start-0 m-2">
-									<span class="bg-success text-white p-2 rounded-circle">
-										<i class="feather-trending-up"></i>
-									</span>
-								</div>
-								<div class="fav-item position-absolute top-0 end-0 m-2">
-									<a href="javascript:void(0);" class="fav-icon text-danger">
-										<i class="ti ti-heart"></i>
-									</a>
-								</div>
+								
 							</div>
 							<div class="service-content mt-3">
 								<h6 class="text-truncate mb-1">
 									<a href="service-details.html">Classic Manicure & Set of Nails</a>
 								</h6>
-								<div class="d-flex align-items-center justify-content-between">
-									<p class="fw-medium fs-14 mb-0">Service starts at $20</p>
-									<span class="d-inline-flex align-items-center fs-14">
-										<i class="ti ti-star-filled text-warning me-1"></i>4.4
-									</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -433,22 +262,13 @@
 								<a href="service-details.html">
 									<img src="assets/img/services/service-07.jpg" class="img-fluid rounded" alt="img">
 								</a>
-								<div class="fav-item position-absolute top-0 end-0 m-2">
-									<a href="javascript:void(0);" class="fav-icon text-danger">
-										<i class="ti ti-heart"></i>
-									</a>
-								</div>
+								
 							</div>
 							<div class="service-content mt-3">
 								<h6 class="text-truncate mb-1">
 									<a href="service-details.html">Water Heater Installation</a>
 								</h6>
-								<div class="d-flex align-items-center justify-content-between">
-									<p class="fw-medium fs-14 mb-0">Service starts at $65</p>
-									<span class="d-inline-flex align-items-center fs-14">
-										<i class="ti ti-star-filled text-warning me-1"></i>4.2
-									</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -460,22 +280,13 @@
 								<a href="service-details.html">
 									<img src="assets/img/services/service-10.jpg" class="img-fluid rounded" alt="img">
 								</a>
-								<div class="fav-item position-absolute top-0 end-0 m-2">
-									<a href="javascript:void(0);" class="fav-icon text-danger">
-										<i class="ti ti-heart"></i>
-									</a>
-								</div>
+								
 							</div>
 							<div class="service-content mt-3">
 								<h6 class="text-truncate mb-1">
 									<a href="service-details.html">General House & Carpet Clean</a>
 								</h6>
-								<div class="d-flex align-items-center justify-content-between">
-									<p class="fw-medium fs-14 mb-0">Service starts at $95</p>
-									<span class="d-inline-flex align-items-center fs-14">
-										<i class="ti ti-star-filled text-warning me-1"></i>4.7
-									</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -487,22 +298,13 @@
 								<a href="service-details.html">
 									<img src="assets/img/services/service-16.jpg" class="img-fluid rounded" alt="img">
 								</a>
-								<div class="fav-item position-absolute top-0 end-0 m-2">
-									<a href="javascript:void(0);" class="fav-icon text-danger">
-										<i class="ti ti-heart"></i>
-									</a>
-								</div>
+								
 							</div>
 							<div class="service-content mt-3">
 								<h6 class="text-truncate mb-1">
 									<a href="service-details.html">Custom PC Builds</a>
 								</h6>
-								<div class="d-flex align-items-center justify-content-between">
-									<p class="fw-medium fs-14 mb-0">Service starts at $85</p>
-									<span class="d-inline-flex align-items-center fs-14">
-										<i class="ti ti-star-filled text-warning me-1"></i>4.8
-									</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -514,22 +316,12 @@
 								<a href="service-details.html">
 									<img src="assets/img/services/service-16.jpg" class="img-fluid rounded" alt="img">
 								</a>
-								<div class="fav-item position-absolute top-0 end-0 m-2">
-									<a href="javascript:void(0);" class="fav-icon text-danger">
-										<i class="ti ti-heart"></i>
-									</a>
-								</div>
+								
 							</div>
 							<div class="service-content mt-3">
 								<h6 class="text-truncate mb-1">
 									<a href="service-details.html">Custom PC Builds</a>
 								</h6>
-								<div class="d-flex align-items-center justify-content-between">
-									<p class="fw-medium fs-14 mb-0">Service starts at $85</p>
-									<span class="d-inline-flex align-items-center fs-14">
-										<i class="ti ti-star-filled text-warning me-1"></i>4.8
-									</span>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -591,11 +383,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Backup & Recovery</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5
-											(254 Reviews)</p>
-										<small>From $350</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -613,11 +400,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Repairs & Upgrades</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.2
-											(120 Reviews)</p>
-										<small>From $150</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -635,11 +417,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Setup & Configuration</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.4
-											(300 Reviews)</p>
-										<small>From $200</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -657,11 +434,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Troubleshooting & Diagnostics</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.7
-											(280 Reviews)</p>
-										<small>From $250</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -679,11 +451,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Server Management</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5
-											(260 Reviews)</p>
-										<small>From $350</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -708,11 +475,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Backup &</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5
-											(254 Reviews)</p>
-										<small>From $350</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -730,11 +492,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Repairs & Upgrades</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.2
-											(120 Reviews)</p>
-										<small>From $150</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -752,11 +509,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Setup & Configuration</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.4
-											(300 Reviews)</p>
-										<small>From $200</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -774,11 +526,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Troubleshooting & Diagnostics</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.7
-											(280 Reviews)</p>
-										<small>From $250</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -796,11 +543,6 @@
 									<h6 class="mb-1 text-truncate">
 										<a href="service-details.html">Server Management</a>
 									</h6>
-									<div class="d-flex align-items-center justify-content-between">
-										<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5
-											(260 Reviews)</p>
-										<small>From $350</small>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -930,34 +672,11 @@
 								</a>
 							</div>
 						</div>
-						<div class="trend-icon">
-							<span class="bg-success">
-								<i class="feather-trending-up"></i>
-							</span>
-						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
+						
 					</div>
 					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-05.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Trivala Anderson</p>
-							</a>
-							<small class="mb-2">From $350</small>
-						</div>
 						<h6 class="mb-2"><a href="javascript:void(0);">Cabinet Installation</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5 (254 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">3K Bookings</span>
-						</div>
+						
 					</div>
 				</div>
 				<div class="service-item">
@@ -979,29 +698,10 @@
 								</a>
 							</div>
 						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
+						
 					</div>
 					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-17.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">William Tichenor</p>
-							</a>
-							<small class="mb-2">From $350</small>
-						</div>
 						<h6 class="mb-2"><a href="javascript:void(0);">Express Car Wash</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.6 (214 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">2K Bookings</span>
-						</div>
 					</div>
 				</div>
 				<div class="service-item">
@@ -1023,34 +723,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="trend-icon">
-							<span class="bg-success">
-								<i class="feather-trending-up"></i>
-							</span>
-						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
 					</div>
 					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-16.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Edwin Murphy</p>
-							</a>
-							<small class="mb-2">From $280</small>
-						</div>
 						<h6 class="mb-2"><a href="javascript:void(0);">Haircut and Styling</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.7 (230 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">2K Bookings</span>
-						</div>
 					</div>
 				</div>
 				<div class="service-item">
@@ -1072,32 +747,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="avatar avatar-md">
-								<img src="assets/img/profiles/avatar-01.jpg" class="rounded-circle" alt="User">
-							</a>
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
 					</div>
 					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-06.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Wesley McClure</p>
-							</a>
-							<small class="mb-2">From $400</small>
-						</div>
 						<h6 class="mb-2"><a href="javascript:void(0);">Roofing Services</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.4 (123 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">4K Bookings</span>
-						</div>
 					</div>
 				</div>
 				<div class="service-item">
@@ -1119,29 +771,12 @@
 								</a>
 							</div>
 						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
+						
 					</div>
 					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-09.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">James Reese</p>
-							</a>
-							<small class="mb-2">From $180</small>
-						</div>
+						
 						<h6 class="mb-2"><a href="service-details.html">Pure Home Cleaning</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.2 (300 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">1K Bookings</span>
-						</div>
+						
 					</div>
 				</div>
 				<div class="service-item">
@@ -1163,235 +798,20 @@
 								</a>
 							</div>
 						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
+						
 					</div>
 					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-25.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Kimberly Carey</p>
-							</a>
-							<small class="mb-2">From $120</small>
-						</div>
+						
 						<h6 class="mb-2"><a href="service-details.html">Crystal Shine Manicure</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.4 (270 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">2K Bookings</span>
-						</div>
+						
 					</div>
 				</div>
 			</div>
-			<!-- <div class="popular-slider-3 owl-carousel nav-center">
-				<div class="service-item">
-					<div class="service-img">
-						<div class="img-slider owl-carousel nav-center">
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-						</div>
-						<div class="trend-icon">
-							<span class="bg-success">
-								<i class="feather-trending-up"></i>
-							</span>
-						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
-					</div>
-					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-05.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Trivala Anderson</p>
-							</a>
-							<small class="mb-2">From $350</small>
-						</div>
-						<h6 class="mb-2"><a href="javascript:void(0);">Cabinet Installation</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5 (254 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">3K Bookings</span>
-						</div>
-					</div>
-				</div>
-				<div class="service-item">
-					<div class="service-img">
-						<div class="img-slider owl-carousel nav-center">
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-						</div>
-						<div class="trend-icon">
-							<span class="bg-success">
-								<i class="feather-trending-up"></i>
-							</span>
-						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
-					</div>
-					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-05.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Trivala Anderson</p>
-							</a>
-							<small class="mb-2">From $350</small>
-						</div>
-						<h6 class="mb-2"><a href="javascript:void(0);">Cabinet Installation</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5 (254 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">3K Bookings</span>
-						</div>
-					</div>
-				</div>
-				<div class="service-item">
-					<div class="service-img">
-						<div class="img-slider owl-carousel nav-center">
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-						</div>
-						<div class="trend-icon">
-							<span class="bg-success">
-								<i class="feather-trending-up"></i>
-							</span>
-						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
-					</div>
-					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-05.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Trivala Anderson</p>
-							</a>
-							<small class="mb-2">From $350</small>
-						</div>
-						<h6 class="mb-2"><a href="javascript:void(0);">Cabinet Installation</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5 (254 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">3K Bookings</span>
-						</div>
-					</div>
-				</div>
-				<div class="service-item">
-					<div class="service-img">
-						<div class="img-slider owl-carousel nav-center">
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-							<div class="slide-images">
-								<a href="service-details.html">
-									<img src="assets/img/services/service-23.jpg" class="img-fluid" alt="img">
-								</a>
-							</div>
-						</div>
-						<div class="trend-icon">
-							<span class="bg-success">
-								<i class="feather-trending-up"></i>
-							</span>
-						</div>
-						<div class="fav-item">
-							<a href="javascript:void(0);" class="fav-icon">
-								<i class="ti ti-heart"></i>
-							</a>
-						</div>
-					</div>
-					<div class="service-content">
-						<div class="d-flex align-items-center justify-content-between mb-2">
-							<a href="provider-details.html" class="d-flex align-items-center mb-2 service-pro-info">
-								<span class="avatar avatar-sm me-2">
-									<img src="assets/img/profiles/avatar-05.jpg" alt="img"
-										class="img-fluid rounded-circle">
-								</span>
-								<p class="fs-14">Trivala Anderson</p>
-							</a>
-							<small class="mb-2">From $350</small>
-						</div>
-						<h6 class="mb-2"><a href="javascript:void(0);">Cabinet Installation</a></h6>
-						<div class="d-flex align-items-center justify-content-between">
-							<p class="fs-14 mb-0"><i class="ti ti-star-filled text-warning me-1"></i>4.5 (254 Reviews)
-							</p>
-							<span class="badge badge-dark-transparent fw-medium p-2">3K Bookings</span>
-						</div>
-					</div>
-				</div>
-			</div> -->
 		</div>
 	</section>
 
 	<!-- Popular Providers -->
-	<section class="section pt-0">
+	<section class="section pt-0 d-none">
 		<div class="container">
 			<div class="provider-sec">
 				<div class="row justify-content-center">
@@ -1533,7 +953,7 @@
 	</section>
 	<!-- /Popular Providers -->
 	<!-- Service Section -->
-	<section class="section rated-section">
+	<section class="section rated-section ">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.2s">
@@ -1757,13 +1177,13 @@
 				</div>
 			</div>
 			<div class="text-center view-all wow fadeInUp" data-wow-delay="0.2s">
-				<a href="services-grid.html" class="btn btn-dark">View All<i class="ti ti-arrow-right ms-2"></i></a>
+				<a href="services-grid.php" class="btn btn-dark">View All<i class="ti ti-arrow-right ms-2"></i></a>
 			</div>
 		</div>
 	</section>
 
 	<!-- Testimonial Section -->
-	<section class="section testimonial-section">
+	<section class="section testimonial-section d-none">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.2s">
@@ -1876,7 +1296,7 @@
 	<!-- /Testimonial Section -->
 
 	<!-- Provider Section -->
-	<section class="section provide-section bg-black">
+	<section class="section provide-section bg-black d-none">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -1902,7 +1322,7 @@
 	<!-- /Provider Section -->
 
 	<!-- Blog Section -->
-	<section class="section blog-section">
+	<section class="section blog-section d-none">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.2s">
@@ -2033,333 +1453,7 @@
 	</section>
 	<!-- /Business Section -->
 
-	<!-- Links Section -->
-	<section class="section info-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="accordion accordion-links">
-						<div class="accordion-item wow fadeInUp bg-transparent" data-wow-delay="0.2s">
-							<h2 class="accordion-header">
-								<button class="accordion-button bg-transparent px-0" type="button"
-									data-bs-toggle="collapse" data-bs-target="#professional" aria-expanded="false">
-									Our Professions Near You
-								</button>
-							</h2>
-							<div id="professional" class="accordion-collapse collapse show">
-								<div class="accordion-body border-0 px-0">
-									<div class="row row-cols-xl-6 row-cols-md-4 row-cols-sm-2 row-cols-1">
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Appliance Repair</a>
-												<a href="javascript:void(0);">Flooring</a>
-												<a href="javascript:void(0);">Garage Doors</a>
-												<a href="javascript:void(0);">Fencing</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Carpet Cleaning</a>
-												<a href="javascript:void(0);">Driveways</a>
-												<a href="javascript:void(0);">Gutter Cleaning</a>
-												<a href="javascript:void(0);">Land Surveying</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Contractors</a>
-												<a href="javascript:void(0);">Exterior Painting</a>
-												<a href="javascript:void(0);">Gutter Repair</a>
-												<a href="javascript:void(0);">Landscaping</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Drywall </a>
-												<a href="javascript:void(0);">Plumbing</a>
-												<a href="javascript:void(0);">Home Builders</a>
-												<a href="javascript:void(0);">Lawn & Yard Work</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Electrical & Services</a>
-												<a href="javascript:void(0);">Remodeling</a>
-												<a href="javascript:void(0);">Home Builders</a>
-												<a href="javascript:void(0);">Sprinkler Systems</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">House Cleaning</a>
-												<a href="javascript:void(0);">Interior Painting</a>
-												<a href="javascript:void(0);">Roofing</a>
-												<a href="javascript:void(0);">More Services</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item mb-0 wow fadeInUp bg-transparent" data-wow-delay="0.2s">
-							<h2 class="accordion-header">
-								<button class="accordion-button bg-transparent px-0" type="button"
-									data-bs-toggle="collapse" data-bs-target="#city" aria-expanded="false">
-									Popular Cities
-								</button>
-							</h2>
-							<div id="city" class="accordion-collapse collapse show">
-								<div class="accordion-body border-0 px-0">
-									<div class="row row-cols-xl-6 row-cols-md-4 row-cols-sm-2 row-cols-1">
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Detroit</a>
-												<a href="javascript:void(0);">Greensboro</a>
-												<a href="javascript:void(0);">Kansas City</a>
-												<a href="javascript:void(0);">Memphis</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">El Paso</a>
-												<a href="javascript:void(0);">Harrisburg</a>
-												<a href="javascript:void(0);">Las Vegas</a>
-												<a href="javascript:void(0);">Miami</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Fort Lauderdale</a>
-												<a href="javascript:void(0);">Hartford</a>
-												<a href="javascript:void(0);">Long Beach</a>
-												<a href="javascript:void(0);">Milwaukee</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Fort Worth </a>
-												<a href="javascript:void(0);">Houston</a>
-												<a href="javascript:void(0);">Los Angeles</a>
-												<a href="javascript:void(0);">Minneapolis</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Fresno</a>
-												<a href="javascript:void(0);">Indianapolis</a>
-												<a href="javascript:void(0);">Louisville</a>
-												<a href="javascript:void(0);">Modesto</a>
-											</div>
-										</div>
-										<div class="col">
-											<div class="main-links">
-												<a href="javascript:void(0);">Grand Rapids</a>
-												<a href="javascript:void(0);">Jacksonville</a>
-												<a href="javascript:void(0);">Madison</a>
-												<a href="javascript:void(0);">Nashville</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /Links Section -->
-
-	<!-- Footer -->
-	<footer>
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xl-2">
-						<div class="footer-widget">
-							<h5 class="mb-4">Product</h5>
-							<ul class="footer-menu">
-								<li>
-									<a href="javascript:void(0);">Features</a>
-								</li>
-								<li>
-									<a href="pricing.html">Pricing</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Case studies</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Reviews</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Updates</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 col-xl-2">
-						<div class="footer-widget">
-							<h5 class="mb-4">Support</h5>
-							<ul class="footer-menu">
-								<li>
-									<a href="javascript:void(0);">Getting started</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Help center</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Server status</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Report a bug</a>
-								</li>
-								<li>
-									<a href="user-chat.html">Chat support</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 col-xl-2">
-						<div class="footer-widget">
-							<h5 class="mb-4">For Provider</h5>
-							<ul class="footer-menu">
-								<li>
-									<a href="about-us.html">About</a>
-								</li>
-								<li>
-									<a href="contact-us.html">Contact us</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Careers</a>
-								</li>
-								<li>
-									<a href="faq.html">Faq’s</a>
-								</li>
-								<li>
-									<a href="blogs.html">Blog</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 col-xl-2">
-						<div class="footer-widget">
-							<h5 class="mb-4">Support</h5>
-							<ul class="footer-menu">
-								<li>
-									<a href="javascript:void(0);">Getting started</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Help center</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Other Products</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">Report a bug</a>
-								</li>
-								<li>
-									<a href="user-chat.html">Chat support</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-12 col-xl-4">
-						<div class="footer-widget">
-							<div class="card bg-light-200 border-0 mb-3">
-								<div class="card-body">
-									<h5 class="mb-3">SignUp For Subscription</h5>
-									<div class="mb-3">
-										<input type="email" class="form-control" placeholder="Enter Email Address">
-									</div>
-									<button type="submit" class="btn btn-lg btn-linear-primary w-100">Subscribe</button>
-								</div>
-							</div>
-							<div class="d-flex align-items-center flex-wrap">
-								<h6 class="fs-14 fw-normal me-2">Download Our App</h6>
-								<img src="assets/img/icons/app-store.svg" class="me-2" alt="img">
-								<img src="assets/img/icons/goolge-play.svg" class="me-2" alt="img">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="d-flex align-items-center justify-content-between flex-wrap mt-3">
-					<ul class="social-icon mb-3">
-						<li>
-							<a href="javascript:void(0);"><img src="assets/img/icons/fb.svg" class="img" alt="icon"></a>
-						</li>
-						<li>
-							<a href="javascript:void(0);"><img src="assets/img/icons/instagram.svg" class="img"
-									alt="icon"></a>
-						</li>
-						<li>
-							<a href="javascript:void(0);"><img src="assets/img/icons/twitter.svg" class="img"
-									alt="icon"></a>
-						</li>
-						<li>
-							<a href="javascript:void(0);"><img src="assets/img/icons/whatsapp.svg" class="img"
-									alt="icon"></a>
-						</li>
-						<li>
-							<a href="javascript:void(0);"><img src="assets/img/icons/youtube.svg" class="img"
-									alt="icon"></a>
-						</li>
-						<li>
-							<a href="javascript:void(0);"><img src="assets/img/icons/linkedin.svg" class="img"
-									alt="icon"></a>
-						</li>
-					</ul>
-					<div class="d-flex align-items-center">
-						<div class="dropdown me-3 mb-3">
-							<a href="javascript:void(0);" class="dropdown-toggle fw-medium" data-bs-toggle="dropdown">
-								<img src="assets/img/flags/us.png" class="flag me-2" alt="flag">English
-							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="javascript:void(0);"><img
-											src="assets/img/flags/us.png" class="flag me-2" alt="flag">English</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0);"><img
-											src="assets/img/flags/jp.png" class="flag me-2" alt="flag">Japanese</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0);"><img
-											src="assets/img/flags/cn.png" class="flag me-2" alt="flag">Chinese</a></li>
-							</ul>
-						</div>
-						<div class="dropdown mb-3">
-							<a href="javascript:void(0);" class="dropdown-toggle fw-medium" data-bs-toggle="dropdown">
-								USD
-							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="javascript:void(0);">USD</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0);">EURO</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0);">YEN</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="d-flex align-items-center justify-content-between flex-wrap">
-							<p class="mb-2">Copyright &copy; 2024 - All Rights Reserved Truelysell</p>
-							<ul class="menu-links mb-2">
-								<li>
-									<a href="terms-condition.html"> Terms and Conditions</a>
-								</li>
-								<li>
-									<a href="privacy-policy.html">Privacy Policy</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /Footer Bottom -->
-
-	</footer>
-	<!-- /Footer -->
+	
 
 	<!-- Provider Modal -->
 	<div class="modal fade" id="provider" tabindex="-1" aria-hidden="true">
@@ -2802,7 +1896,7 @@
 							class="ti ti-circle-x-filled fs-20"></i></a>
 				</div>
 				<div class="modal-body p-4">
-					<form action="https://truelysell.dreamstechnologies.com/html/template/index.html">
+					<form action="https://truelysell.dreamstechnologies.com/html/template/index.php">
 						<div class="text-center mb-3">
 							<h3 class="mb-2">Welcome</h3>
 							<p>Enter your credentials to access your account</p>
@@ -3155,7 +2249,7 @@
 							class="ti ti-circle-x-filled fs-20"></i></a>
 				</div>
 				<div class="modal-body p-4">
-					<form action="https://truelysell.dreamstechnologies.com/html/template/index.html">
+					<form action="https://truelysell.dreamstechnologies.com/html/template/index.php">
 						<div class="text-center mb-3">
 							<h3 class="mb-2">Start your free trial</h3>
 						</div>
@@ -3229,56 +2323,6 @@
 				class="fa-solid fa-arrow-up"></i></a>
 	</div>
 
-	<!-- Cursor -->
-	<div class="xb-cursor tx-js-cursor">
-		<div class="xb-cursor-wrapper">
-			<div class="xb-cursor--follower xb-js-follower"></div>
-		</div>
-	</div>
-	<!-- /Cursor -->
-
-	<!-- Jquery JS -->
-	<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-	<script src="assets/js/jquery-3.7.1.min.js" ></script>
-
-	<!-- Bootstrap JS -->
-	<script src="assets/js/bootstrap.bundle.min.js" ></script>
-
-	<!-- Wow JS -->
-	<script src="assets/js/wow.min.js" ></script>
-
-	<!-- Owlcarousel Js -->
-	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"
-		></script>
-
-	<!-- select JS -->
-	<script src="assets/plugins/select2/js/select2.min.js" ></script>
-
-	<!-- counterup JS -->
-	<script src="assets/js/cursor.js" ></script>
-
-	<!-- Mobile Input -->
-	<script src="assets/plugins/intltelinput/js/intlTelInput.js"
-		></script>
-	<script src="assets/plugins/ityped/index.js" ></script>
-
-	<!-- Validation-->
-	<script src="assets/js/validation.js" ></script>
-
-	<!-- Script JS -->
-	<script src="assets/js/script.js" ></script>
-	<script src="assets/js/custom.js" ></script>
-
-	<script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
-		data-cf-settings="1fb735271b31eaab4c076f26-|49" defer></script>
-	<script defer
-		src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-		integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-		data-cf-beacon='{"version":"2024.11.0","token":"3ca157e612a14eccbb30cf6db6691c29","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-		crossorigin="anonymous"></script>
-</body>
-
-
-<!-- Mirrored from truelysell.dreamstechnologies.com/html/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Nov 2025 09:12:12 GMT -->
-
-</html>
+	<?php
+	@include 'inc/footer.php';
+	?>
