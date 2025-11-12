@@ -7441,9 +7441,9 @@ header.header-five.fixed .header-button.header-button-five {
 }
 
 .logo img {
-  height: auto;
-  max-width: 100%;
-  max-height: 35px;
+    height: auto;
+    max-width: 200px;
+    /* max-height: 35px; */
 }
 .logo a {
   float: left;

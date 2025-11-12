@@ -1,0 +1,239 @@
+<?php @include "inc/header.php";?>
+	<!-- /Header -->
+
+	<!-- Breadcrumb -->
+	<div class="breadcrumb-bar text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-12">
+					<h2 class="breadcrumb-title mb-2">Settings</h2>
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb justify-content-center mb-0">
+							<li class="breadcrumb-item"><a href="index.html"><i class="ti ti-home-2"></i></a></li>
+							<li class="breadcrumb-item">Customer</li>
+							<li class="breadcrumb-item active" aria-current="page">Settings</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+			<div class="breadcrumb-bg">
+				<img src="assets/img/bg/breadcrumb-bg-01.png" class="breadcrumb-bg-1" alt="Img">
+				<img src="assets/img/bg/breadcrumb-bg-02.png" class="breadcrumb-bg-2" alt="Img">
+			</div>
+		</div>
+	</div>
+	<!-- /Breadcrumb -->
+
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+		<div class="content">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-3 col-lg-4 theiaStickySidebar">
+						<div class="card user-sidebar mb-4 mb-lg-0">
+                            <div class="card-header user-sidebar-header mb-4">
+                                <div class="d-flex justify-content-center align-items-center flex-column">
+                                    <span class="user rounded-circle avatar avatar-xxl mb-2">
+                                        <img src="assets/img/profiles/avatar-21.jpg" class="img-fluid rounded-circle" alt="Img">
+                                    </span>
+                                    <h6 class="mb-2">John Smith</h6>
+                                    <p class="fs-14">Member Since Sep 2021</p>
+                                </div>
+                            </div>
+							<div class="card-body user-sidebar-body p-0">
+								<ul>
+                                    <li class="mb-4">
+                                        <a href="user-dashboard.php" class="d-flex align-items-center">
+                                            <i class="ti ti-layout-grid me-2"></i>
+                                            Dashboard
+                                        </a>
+                                    </li>
+                                    <!-- <li class="mb-4">
+                                        <a href="user-booking-list.html" class="d-flex align-items-center">
+                                            <i class="ti ti-device-mobile me-2"></i>
+                                            Bookings
+                                        </a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="favourites.html" class="d-flex align-items-center">
+                                            <i class="ti ti-heart me-2"></i>
+                                            Favorites
+                                        </a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="customer-wallet.html" class="d-flex align-items-center">
+                                            <i class="ti ti-wallet me-2"></i>
+                                            Wallet
+                                        </a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="customer-reviews.html" class="d-flex align-items-center">
+                                            <i class="ti ti-star me-2"></i>
+                                            Reviews
+                                        </a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="user-chat.html" class="d-flex align-items-center">
+                                            <i class="ti ti-message-circle me-2"></i>
+                                            Chat
+                                        </a>
+                                    </li> -->
+                                    <li class="mb-4">
+										<a href="account-settings.php" class="d-block mb-3"><i class="ti ti-settings me-2"></i><span>Settings</span><span class="menu-arrow"></span></a>
+										<!-- <ul class="ms-4">
+											<li class="mb-3">
+												<a href="account-settings.html" class="fs-14 d-inline-flex align-items-center active"><i class="ti ti-chevrons-right me-2"></i>Account Settings</a>
+											</li>
+											<li class="mb-3">
+												<a href="security-settings.html" class="fs-14 d-inline-flex align-items-center"><i class="ti ti-chevrons-right me-2"></i>Security Settings</a>
+											</li>
+											<li class="mb-3"> 
+												<a href="notification-settings.html" class="fs-14 d-inline-flex align-items-center"><i class="ti ti-chevrons-right me-2"></i>Notifications</a>
+											</li>
+											<li class="mb-3">
+												<a href="connected-apps.html" class="fs-14 d-inline-flex align-items-center"><i class="ti ti-chevrons-right me-2"></i>Connected Apps</a>
+											</li>
+											<li class="mb-3">
+												<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#del-account" class="fs-14"><i class="ti ti-chevrons-right me-2"></i>Delete Account</a>
+											</li>
+										</ul> -->
+									</li>
+                                    <li class="mb-0">
+                                        <a href="login.html" class="d-flex align-items-center">
+                                            <i class="ti ti-logout me-2"></i>
+                                            Logout
+                                        </a>
+                                    </li>
+                                </ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-8">
+                        <h4 class="mb-3">Account Settings</h4>
+                        <h6 class="mb-4">Profile Picture</h6>
+                        <div class="d-flex align-items-center mb-4">
+                            <span class="avatar avatar-xl me-2">
+                                <img src="assets/img/profiles/avatar-02.jpg" class="rounded-circle" alt="user">
+                            </span>
+                            <div>
+                                <a href="#" class="btn btn-dark me-2 mb-2"><i class="feather-upload-cloud me-1"></i>Upload</a> 
+                                <a href="javascript:void(0);" class="btn btn-light mb-2">Remove</a>
+                                <p>*image size should be at least 320px big,and less then 500kb. Allowed files .png and .jpg.</p>
+                            </div>
+                        </div>   
+                        <h6>General Information</h6>
+                        <div class="general-info mb-0">
+							<div class="row mb-4">
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">Name</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+									<label class="form-label">User Name</label>
+									<input type="text" class="form-control" >
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+									<label class="form-label">Email</label>
+									<input type="email" class="form-control">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+									<label class="form-label">Mobile Number</label>
+									<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+									<label class="form-label">Gender</label>
+									<select class="select">
+									<option>Select Gender</option>
+									<option>Male</option>
+									<option>Female</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="mb-3">
+									<label class="form-label">Date of birth</label>
+									<div class=" input-icon position-relative">
+										<span class="input-icon-addon"><i class="ti ti-calendar"></i></span>
+										<input type="text" class="form-control datetimepicker" placeholder="dd-mm-yyyy">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 mb-3">
+								<div class="mb-3">
+									<label class="form-label d-block">Your Bio</label>
+									<textarea class="form-control" rows="5"></textarea>
+								</div>
+							</div>
+						</div>
+                        <h6 class="user-title">Address </h6>
+                        <div class="row">
+							<div class="col-md-12">
+								<div class=" mb-3">
+									<label class="form-label">Address</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class=" mb-3">
+									<label class="form-label">Country</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class=" mb-3">
+									<label class="form-label">State</label>
+									<input type="email" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class=" mb-3">
+									<label class="form-label">City</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class=" mb-3">
+									<label class="form-label">Postal Code</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class=" mb-3">
+									<label class="form-label">Currency Code</label>
+									<select class="select">
+										<option>Choose Currency</option>
+										<option>Eur</option>
+										<option>Aud</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="mb-3">
+									<label class="form-label">Language</label>
+									<input class="input-tags form-control" type="text" data-role="tagsinput" name="specialist" value="English,French" id="specialist">
+								</div>
+							</div>
+                        </div>
+                        <div class="acc-submit d-flex justify-content-end align-items-center">
+                        <a href="javascript:void(0);" class="btn btn-light me-2">Cancel</a>
+                        <a href="javascript:void(0);" class="btn btn-dark">Save Changes</a>
+                        </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Page Wrapper -->
+
+	<!-- Footer -->
+<?php @include "inc/footer.php";?>

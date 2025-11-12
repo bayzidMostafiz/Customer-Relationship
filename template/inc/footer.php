@@ -307,7 +307,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="d-flex align-items-center justify-content-between flex-wrap">
-							<p class="mb-2">Copyright &copy; 2024 - All Rights Reserved Truelysell</p>
+							<p class="mb-2">Copyright &copy; 2024 - All Rights Reserved Sheba Lagbe</p>
 							<ul class="menu-links mb-2">
 								<li>
 									<a href="terms-condition.html"> Terms and Conditions</a>

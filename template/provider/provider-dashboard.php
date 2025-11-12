@@ -1,0 +1,934 @@
+<?php @include "inc/provider-header.php";?>
+
+        <!-- Page Wrapper -->
+        <div class="page-wrapper">
+            <div class="content container-fluid pb-0">
+                <div class="row justify-content-center">
+                    <!-- col-xxl-3 col-md-6 -->
+                    <div class="">
+                        <div class="row flex-fill">
+                            <div class="col-12">
+                                <div class="card prov-widget">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="mb-2">
+                                                <p class="mb-1">Upcoming Appointments</p>
+                                                <h5><span class="counter">12</span>+</h5>
+                                            </div>
+                                            <span class="prov-icon bg-info d-flex justify-content-center align-items-center rounded">
+                                                <i class="ti ti-calendar-check"></i>
+                                            </span>
+                                        </div>
+                                        <p class="fs-12"><span class="text-success me-2">12% <i class="ti ti-arrow-badge-up-filled"></i></span>from Last Week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card prov-widget">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="mb-2">
+                                                <p class="mb-1">Completed Appointments</p>
+                                                <h5><span class="counter">68</span>+</h5>
+                                            </div>
+                                            <span class="prov-icon bg-success d-flex justify-content-center align-items-center rounded">
+                                                <i class="ti ti-calendar-check"></i>
+                                            </span>
+                                        </div>
+                                        <p class="fs-12"><span class="text-danger me-2">12% <i class="ti ti-arrow-badge-down-filled"></i></span>from Last Week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card prov-widget">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="mb-2">
+                                                <p class="mb-1">Canceled Appointments</p>
+                                                <h5><span class="counter">08</span>+</h5>
+                                            </div>
+                                            <span class="prov-icon bg-danger d-flex justify-content-center align-items-center rounded">
+                                                <i class="ti ti-calendar-check"></i>
+                                            </span>
+                                        </div>
+                                        <p class="fs-12"><span class="text-danger me-2">0%</span>from Last Week</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-md-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                <div>
+                                    <div class="d-flex justify-content-center flex-column mb-3">
+                                        <h5 class="text-center">1,500 <span class="text-success"><i class="ti ti-arrow-badge-up-filled"></i></span></h5>
+                                    <p class="fs-12 text-center">Total earned last week so far</p>
+                                    
+                                    </div>
+                                    <div class="d-flex justify-content-around mb-3">
+                                        <div>
+                                            <p class="mb-0">Total Income</p>
+                                            <h5>$8145</h5>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0">Total Due</p>
+                                            <h5>$8145</h5>
+                                        </div>
+                                    </div>
+                                    <div id="daily-chart"></div>
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <span class="text-success text-center fs-12 mb-4">
+                                            Performance is 30% better last month
+                                        </span>
+                                        <a href="provider-earnings.html" class="btn btn-dark">View All Earnings</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                <h6 class="mb-3">Subscription</h6>
+                                <div class=" bg-light-300 rounded p-3 mb-3">
+                                    <div class="d-flex justify-content-between flex-wrap row-gap-2 mb-2">
+                                        <span class="badge badge-success"><i class="ti ti-point-filled"></i>Current Plan</span>
+                                        <span class="badge bg-info-transparent">Renewal Date : 14 Jan 2025</span>
+                                    </div>
+                                    <div class="mb-2">
+                                        <p class="mb-0 text-dark fw-medium">Standard Plan</p>
+                                        <span>Our most popular plan for small teams.</span>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <h5 class="me-2">$291</h5>
+                                        <span>Per user/Year</span>
+                                    </div>
+                                    <div class="">
+                                        <div class="row justify-content-between">
+                                            <div class="col-md-6">
+                                                <a href="javascript:void(0);" class="btn btn-dark w-100 mb-3 mb-md-0">Upgrade Plan</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <a href="javascript:void(0);" class="btn btn-white w-100">Cancel Plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-light-500 rounded p-3">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <div class="">
+                                            <p class="mb-0 text-dark fw-medium">Standard Plan</p>
+                                            <span class="d-block mb-2">Our most popular plan for small teams.</span>
+                                            <a href="provider-subscribtion.html" class="text-info d-block">View All Plans</a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <h5>$291 </h5>
+                                            <span> /Year</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <h6>Top Services</h6>
+                                    <a href="service-details.html" class="btn border">View All</a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-56.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Installation Box</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">300 Bookings</span>
+                                                <span class="pe-2 border-end">$400K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1 me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-57.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Plumbing Services</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">287 Bookings</span>
+                                                <span class="pe-2 border-end">$320K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-58.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">House Renovation</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">250 Bookings</span>
+                                                <span class="pe-2 border-end">$300K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-59.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Painting Services</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">214 Bookings</span>
+                                                <span class="pe-2 border-end">$280K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-60.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Power restoration</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">115 Bookings</span>
+                                                <span class="pe-2 border-end">$210K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-61.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Mosaic Cleaning Service</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">102 Bookings</span>
+                                                <span class="pe-2 border-end">$190K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-62.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Light Installation</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">102 Bookings</span>
+                                                <span class="pe-2 border-end">$190K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-0">
+                                    <div class="d-flex">
+                                        <a href="service-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/services/service-63.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="service-details.html" class="fw-medium mb-0">Cieling Fan Change</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">102 Bookings</span>
+                                                <span class="pe-2 border-end">$190K</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="service-details.html">
+                                        <i class="ti ti-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <h6>Bookings</h6>
+                                    <a href="javascript:void(0);" class="btn border">View All</a>
+                                </div>
+                                <div id="datetimepickershow"></div>
+                                <div class="book-crd">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                                <div class="d-flex align-items-center">
+                                                    <a href="booking-details.html" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                        <img src="../assets/img/services/service-63.jpg" class="rounded-circle" alt="Img">
+                                                    </a>
+                                                    <div>
+                                                        <a href="booking-details.html" class="fw-medium">Plan & Design</a>
+                                                        <span class="d-block fs-12"><i class="ti ti-clock me-1"></i>05:30 PM - 06:00 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="booking-details.html" class="avatar avatar-sm me-2">
+                                                        <img src="../assets/img/user/user-01.jpg" class="rounded-circle" alt="user">
+                                                    </a>
+                                                    <a href="booking-details.html">
+                                                        <i class="ti ti-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="book-crd">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                                <div class="d-flex">
+                                                    <a href="booking-details.html" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                        <img src="../assets/img/services/service-56.jpg" class="rounded-circle" alt="Img">
+                                                    </a>
+                                                    <div>
+                                                        <a href="booking-details.html" class="fw-medium">Installation & Maintenance</a>
+                                                        <span class="fs-12 d-block"><i class="ti ti-clock"></i>04:30 PM - 05:00 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="javascript:void(0);" class="avatar avatar-sm me-2">
+                                                        <img src="../assets/img/user/user-01.jpg" class="rounded-circle" alt="user">
+                                                    </a>
+                                                    <a href="booking-details.html">
+                                                        <i class="ti ti-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="book-crd">
+                                    <div class="card mb-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                                <div class="d-flex align-items-center">
+                                                    <a href="booking-details.html" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                        <img src="../assets/img/services/service-63.jpg" class="rounded-circle" alt="Img">
+                                                    </a>
+                                                    <div>
+                                                        <a href="booking-details.html" class="fw-medium">Plan & Design</a>
+                                                        <span class="d-block fs-12"><i class="ti ti-clock me-1"></i>05:30 PM - 06:00 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="booking-details.html" class="avatar avatar-sm me-2">
+                                                        <img src="../assets/img/user/user-01.jpg" class="rounded-circle" alt="user">
+                                                    </a>
+                                                    <a href="booking-details.html">
+                                                        <i class="ti ti-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-md-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                    <h6 class="mb-4">Top Locations</h6>
+                                    <div id="deals-chart"></div>
+                                    <div>
+                                        <p>Top Locations & Users</p>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div class="d-flex">
+                                                <span class="avatar avatar-lg me-2">
+                                                    <img src="../assets/img/icons/flag-01.svg" class="rounded-circle " alt="flag">
+                                                </span>
+                                                <div>
+                                                    <p class="text-dark fw-medium mb-0">Saudi Arabia</p>
+                                                    <span class="fs-12">California</span>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-info">
+                                                <i class="ti ti-point-filled"></i>
+                                                300 Bookings
+                                            </span>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <div class="d-flex">
+                                                <span class="avatar avatar-lg me-2">
+                                                    <img src="../assets/img/icons/flag-02.svg" class="rounded-circle " alt="flag">
+                                                </span>
+                                                <div>
+                                                    <p class="text-dark fw-medium mb-0">Honkong</p>
+                                                    <span class="fs-12">California</span>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-info">
+                                                <i class="ti ti-point-filled"></i>
+                                                300 Bookings
+                                            </span>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-0">
+                                            <div class="d-flex">
+                                                <span class="avatar avatar-lg me-2">
+                                                    <img src="../assets/img/icons/flag-03.svg" class="rounded-circle " alt="flag">
+                                                </span>
+                                                <div>
+                                                    <p class="text-dark fw-medium mb-0">Germany</p>
+                                                    <span class="fs-12">California</span>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-info">
+                                                <i class="ti ti-point-filled"></i>
+                                                300 Bookings
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <h6>Latest Reviews</h6>
+                                    <a href="provider-reviews.html" class="btn border">View All</a>
+                                </div>
+                                <div class=" border-bottom pb-3 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0);" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                <img src="../assets/img/profiles/avatar-01.jpg" class="rounded-circle" alt="Img">
+                                            </a>
+                                            <div>
+                                                <a href="provider-reviews.html" class="fw-medium">Maude Rossi</a>
+                                                <div class="d-flex align-items-center">
+                                                    <p class="fs-12 mb-0 pe-2 border-end">For <span class="text-info">Plumbing installation</span></p>
+                                                    <span class="avatar avatar-sm mx-2">
+                                                        <img src="../assets/img/user/user-03.jpg" class="img-fluid rounded-circle" alt="user">
+                                                    </span>
+                                                    <span class="fs-12">rebecca</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="text-warning fs-10 me-1">
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                            </span>
+                                            <span class="fs-12">4.9</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom pb-3 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0);" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                <img src="../assets/img/profiles/avatar-02.jpg" class="rounded-circle" alt="Img">
+                                            </a>
+                                            <div>
+                                                <a href="provider-reviews.html" class="fw-medium">Livengood</a>
+                                                <div class="d-flex align-items-center">
+                                                    <p class="fs-12 mb-0 pe-2 border-end">For <span class="text-info"> Plumbing Repairs</span></p>
+                                                    <span class="avatar avatar-sm mx-2">
+                                                        <img src="../assets/img/user/user-04.jpg" class="img-fluid rounded-circle" alt="user">
+                                                    </span>
+                                                    <span class="fs-12">Adrian</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="text-warning fs-10 me-1">
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                            </span>
+                                            <span class="fs-12">4.9</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom pb-3 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0);" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                <img src="../assets/img/profiles/avatar-03.jpg" class="rounded-circle" alt="Img">
+                                            </a>
+                                            <div>
+                                                <a href="provider-reviews.html" class="fw-medium">Karl Brown</a>
+                                                <div class="d-flex align-items-center">
+                                                    <p class="fs-12 mb-0 pe-2 border-end">For <span class="text-info"> Construction Worker</span></p>
+                                                    <span class="avatar avatar-sm mx-2">
+                                                        <img src="../assets/img/user/user-05.jpg" class="img-fluid rounded-circle" alt="user">
+                                                    </span>
+                                                    <span class="fs-12">Andreson
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="text-warning fs-10 me-1">
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                            </span>
+                                            <span class="fs-12">4.9</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom pb-3 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0);" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                <img src="../assets/img/profiles/avatar-03.jpg" class="rounded-circle" alt="Img">
+                                            </a>
+                                            <div>
+                                                <a href="provider-reviews.html" class="fw-medium">Jerry Curran</a>
+                                                <div class="d-flex align-items-center">
+                                                    <p class="fs-12 mb-0 pe-2 border-end">For <span class="text-info"> Makeup Artists</span></p>
+                                                    <span class="avatar avatar-sm mx-2">
+                                                        <img src="../assets/img/user/user-06.jpg" class="img-fluid rounded-circle" alt="user">
+                                                    </span>
+                                                    <span class="fs-12">
+                                                        Pique
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="text-warning fs-10 me-1">
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                            </span>
+                                            <span class="fs-12">4.9</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-bottom pb-3 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0);" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                <img src="../assets/img/profiles/avatar-02.jpg" class="rounded-circle" alt="Img">
+                                            </a>
+                                            <div>
+                                                <a href="provider-reviews.html" class="fw-medium">Livengood</a>
+                                                <div class="d-flex align-items-center">
+                                                    <p class="fs-12 mb-0 pe-2 border-end">For <span class="text-info"> Plumbing Repairs</span></p>
+                                                    <span class="avatar avatar-sm mx-2">
+                                                        <img src="../assets/img/user/user-04.jpg" class="img-fluid rounded-circle" alt="user">
+                                                    </span>
+                                                    <span class="fs-12">Adrian</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="text-warning fs-10 me-1">
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                            </span>
+                                            <span class="fs-12">4.9</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0);" class="avatar avatar-lg flex-shrink-0 me-2">
+                                                <img src="../assets/img/profiles/avatar-03.jpg" class="rounded-circle" alt="Img">
+                                            </a>
+                                            <div>
+                                                <a href="provider-reviews.html" class="fw-medium">Karl Brown</a>
+                                                <div class="d-flex align-items-center">
+                                                    <p class="fs-12 mb-0 pe-2 border-end">For <span class="text-info"> Construction Worker</span></p>
+                                                    <span class="avatar avatar-sm mx-2">
+                                                        <img src="../assets/img/user/user-05.jpg" class="img-fluid rounded-circle" alt="user">
+                                                    </span>
+                                                    <span class="fs-12">Andreson
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="text-warning fs-10 me-1">
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                                <i class="ti ti-star-filled filled"></i>
+                                            </span>
+                                            <span class="fs-12">4.9</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none">
+                        <div class="card flex-fill">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2 mb-4">
+                                    <h6>Highly Rated Staffs</h6>
+                                    <a href="javascript:void(0);" class="btn border" data-bs-toggle="modal" data-bs-target="#add-staff">Add New Staff</a>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom flex-wrap row-gap-2 pb-3 mb-3">
+                                    <div class="d-flex">
+                                        <a href="staff-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/profiles/avatar-20.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="staff-details.html" class="fw-medium">Maude Rossi</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">Plumber</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="badge badge-info">
+                                        <i class="ti ti-point-filled"></i>
+                                        300 Bookings
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom flex-wrap row-gap-2 pb-3 mb-3">
+                                    <div class="d-flex">
+                                        <a href="staff-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/profiles/avatar-21.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="staff-details.html" class="fw-medium">Floyd Andrian</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">Electrician</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="badge badge-info">
+                                        <i class="ti ti-point-filled"></i>
+                                        158 Bookings
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom flex-wrap row-gap-2 pb-3 mb-3">
+                                    <div class="d-flex">
+                                        <a href="staff-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/profiles/avatar-22.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="staff-details.html" class="fw-medium">Michael Ruiz</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">Painter</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="badge badge-info">
+                                        <i class="ti ti-point-filled"></i>
+                                        157 Bookings
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom flex-wrap row-gap-2 pb-3 mb-3">
+                                    <div class="d-flex">
+                                        <a href="staff-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/profiles/avatar-23.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="staff-details.html" class="fw-medium">
+                                                Glenn Lewis</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">Electrician</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="badge badge-info">
+                                        <i class="ti ti-point-filled"></i>
+                                        156 Bookings
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom flex-wrap row-gap-2 pb-3 mb-3">
+                                    <div class="d-flex">
+                                        <a href="staff-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/profiles/avatar-24.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="staff-details.html" class="fw-medium">
+                                                Kimberly Meissner</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">Electrician</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="badge badge-info">
+                                        <i class="ti ti-point-filled"></i>
+                                        120 Bookings
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap row-gap-2">
+                                    <div class="d-flex">
+                                        <a href="staff-details.html" class="avatar avatar-lg me-2">
+                                            <img src="../assets/img/profiles/avatar-25.jpg" class="rounded-circle" alt="Img">
+                                        </a>
+                                        <div>
+                                            <a href="staff-details.html" class="fw-medium">
+                                                Lisa Jackson</a>
+                                            <div class="fs-12 d-flex align-items-center gap-2">
+                                                <span class="pe-2 border-end">Electrician</span>
+                                                <span><i class="ti ti-star-filled text-warning me-1"></i>4.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="badge badge-info">
+                                        <i class="ti ti-point-filled"></i>
+                                        120 Bookings
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Wrapper -->
+
+         <!-- Add Staff-->
+         <div class="modal fade custom-modal" id="add-staff">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content doctor-profile">
+                    <div class="modal-header d-flex align-items-center justify-content-between border-bottom">
+                        <h5 class="modal-title">Add Staff </h5>
+                        <a href="javascript:void(0);" data-bs-dismiss="modal" aria-label="Close"><i class="ti ti-circle-x-filled fs-20"></i></a>
+                    </div>
+                    <div class="modal-body pb-0">
+                        <form action="https://truelysell.dreamstechnologies.com/html/template/staff-list.html">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <div class="d-flex profile-upload align-items-center">
+                                            <span class="d-flex justify-content-center align-items-center p-4 bg-light rounded me-2"><i class="ti ti-photo"></i></span>
+                                            <div>
+                                                <h6 class="fs-16">Profile</h6>
+                                                <span class="fs-14">Image size does not exceed 5MB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" class="form-control pass-input">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control pass-input">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="number" class="form-control pass-input">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Address</label>
+                                        <input type="text" class="form-control pass-input">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Country</label>
+                                        <select class="select">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">State</label>
+                                        <select class="select">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">City</label>
+                                        <select class="select">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Zip Code</label>
+                                        <input type="text" class="form-control pass-input">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Description</label>
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Services</label>
+                                        <select class="select">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Status</label>
+                                        <select class="select">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="d-flex justify-content-end align-items-center">
+                            <a href="javascript:void(0);" class="btn btn-light me-2" data-bs-dismiss="modal">Cancel</a>
+                            <button class="btn btn-dark" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- /Add Staff -->
+
+        <!-- Delete Account -->
+        <div class="modal fade custom-modal" id="del-account">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header d-flex align-items-center justify-content-between border-bottom">
+                        <h5 class="modal-title">Delete Account</h5>
+                        <a href="javascript:void(0);" data-bs-dismiss="modal" aria-label="Close"><i class="ti ti-circle-x-filled fs-20"></i></a>
+                    </div>
+                    <form action="#">
+                        <div class="modal-body">
+                            <p class="mb-3">Are you sure you want to delete This Account? To delete your account, Type your password.</p>
+                            <div class="mb-0">
+                                <label class="form-label">Password</label>
+                                <div class="pass-group">
+                                    <input type="password" class="form-control pass-input" placeholder="*************">
+                                    <span class="toggle-password feather-eye-off"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="javascript:void(0);" class="btn btn-light me-2" data-bs-dismiss="modal">Cancel</a>
+                            <button type="submit" class="btn btn-dark">Delete Account</button>
+                        </div>	
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /Delete Account -->
+
+    </div>
+
+	<!-- Jquery JS -->
+	<script src="../assets/js/jquery-3.7.1.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+    <!-- Slimscroll JS -->
+	<script src="../assets/js/jquery.slimscroll.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="../assets/js/bootstrap.bundle.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- Wow JS -->
+	<script src="../assets/js/wow.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- select JS -->
+	<script src="../assets/plugins/select2/js/select2.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- Owlcarousel Js -->
+	<script src="../assets/plugins/owlcarousel/owl.carousel.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- cursor JS -->
+	<script src="../assets/js/cursor.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+    <!-- Datetimepicker JS -->
+	<script src="../assets/js/moment.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+	<script src="../assets/js/bootstrap-datetimepicker.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+    <!-- Counter JS -->
+	<script src="../assets/plugins/countup/jquery.counterup.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+	<script src="../assets/plugins/countup/jquery.waypoints.min.js" type="eff95e88cb72e15f05c56b19-text/javascript">	</script>
+
+    <!-- Apexchart JS -->
+    <script src="../assets/plugins/apexchart/apexcharts.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+    <script src="../assets/plugins/apexchart/chart-data.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- Tagsinput JS -->
+	<script src="../assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+    <!-- Calendar Js -->
+    <script src="../assets/plugins/simple-calendar/jquery.simple-calendar.min.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+    <script src="../assets/js/calender.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+
+	<!-- Script JS -->
+	<script src="../assets/js/script.js" type="eff95e88cb72e15f05c56b19-text/javascript"></script>
+<script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="eff95e88cb72e15f05c56b19-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3ca157e612a14eccbb30cf6db6691c29","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from truelysell.dreamstechnologies.com/html/template/provider-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Nov 2025 09:18:54 GMT -->
+</html>

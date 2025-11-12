@@ -8,7 +8,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Truelysell - Service Marketplace Template</title>
+	<title>Sheba Lagbe - Service Marketplace Template</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
@@ -57,8 +57,8 @@
 							<span></span>
 						</span>
 					</a>
-					<a href="index.html" class="navbar-brand logo">
-						<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+					<a href="index.php" class="navbar-brand logo">
+						<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 					</a>
 					<a href="index.html" class="navbar-brand logo-small">
 						<img src="assets/img/logo-small.svg" class="img-fluid" alt="Logo">
@@ -80,20 +80,13 @@
 							<a href="services-grid.php">Services</a>
 						</li>
 						<li class="me-4">
-							<a href="#">Customers</a>
-						</li>
-						<li class="me-4">
-							<a href="#">Providers</a>
+							<a href="about-us.php">About Us</a>
 						</li>
 						<li class="nav-item me-4">
-							<a class="nav-link" href="./contact-us.html">Contact Us</a>
-							
+							<a class="nav-link" href="./contact-us.php">Contact Us</a>
 						</li>
 						<li class="nav-item me-4">
-							<a class="nav-link" href="#">Become a Provider</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="admin/index.html">Admin</a>
+							<a class="nav-link" href="become-a-provider.php">Become a Provider</a>
 						</li>
 						<li class="nav-item d-sm-none">
 							<a class="nav-link" href="login.html">Sign In</a>
